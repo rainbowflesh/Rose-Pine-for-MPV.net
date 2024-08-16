@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for MPV.net Media Player</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -13,35 +13,27 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Get [mpv.net](https://github.com/mpvnet-player/mpv.net)
+2. Put [theme.conf](./theme.conf) to `<conf folder>\theme.conf`, mostly in `~\AppData\Roaming\mpv.net\`.
+3. Under `settings/Appearance`, set `rose-pine` or `rose-pine-moon` to `dark-theme`, `rose-pine-dawm` to `light-theme`
+4. Restart program, done!
 
 ## Gallery
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+### Base
+![rose-pine](./base.png)
+
+### Moon
+![rose-pine-moon](./moon.png)
+
+### Dawn
+![rose-pine-dawn](./dawn.png)
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
+- [Me, it's me!](https://github.com/rainbowflesh)
+- [And Rose Pine!](https://github.com/rose-pine/rose-pine-theme) Best palette ever!
 
 ## Contributing
 
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
-
-Modify `template.json` using Rosé Pine variables, then build variants:
-
-```sh
-npx @rose-pine/build@latest
-```
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Add a description and topics to automatically show the theme on [rosepinetheme.com/themes](https://rosepinetheme.com/themes)
-    - Description should read "Soho vibes for App" where "App" is the display name
-    - Topics should include [existing categories](https://rosepinetheme.com/themes)
-    - Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
+Modify `theme.conf` then PR ;)
